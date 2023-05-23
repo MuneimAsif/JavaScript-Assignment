@@ -1,13 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Facebook SignUp Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <!-- Facebook SignUp Form Start -->
+    <div class="main">
+        <form action="">
+            <h2 class="title1">Sign Up</h2>
+            <p class="subTitle1" id="subtitle">It's quick and easy</p>
+            <hr>
+
+            <!-- Input Section Start -->
+            <div class="input">
+                <input type="text" class="firstName" placeholder="First Name" id="inp1" required />
+                <input type="text" class="Surname" placeholder="Surname" id="inp2" required />
+                <br />
+                <input type="email" placeholder="Mobile number or email address" id="inp3" required />
+                <input type="password" placeholder="New Password" id="inp4" required />
+            </div>
+            <!-- Input Section End -->
+
+            <!-- DOB Section Start -->
+            <p class="subTitle2" id="subtitle">Date of birth</p>
+            <select name="" id="slct1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+            </select>
+            <select name="" id="slct2">
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="Mar">Mar</option>
+                <option value="Apr">Apr</option>
+                <option value="May">May</option>
+                <option value="Jun">Jun</option>
+                <option value="Jul">Jul</option>
+                <option value="Aug">Aug</option>
+                <option value="Sep">Sep</option>
+                <option value="Oct">Oct</option>
+                <option value="Nov">Nov</option>
+                <option value="Dec">Dec</option>
+            </select>
+            <select name="" id="slct3">
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+                <option value="2012">2012</option>
+            </select>
+            <!-- DOB Section End -->
+
+            <!-- Gender Section Start -->
+            <p class="subTitle3" id="subtitle">Gender</p>
+            <div class="female" id="allGender">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="female">
+            </div>
+            <div class="male" id="allGender">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="male" id="inp5">
+            </div>
+            <div class="other" id="allGender">
+                <label for="other">Custom</label>
+                <input type="radio" name="gender" value="other">
+            </div>
+            <!-- Gender Section End -->
+
+            <p class="subTitle4">People who use our service may have uploaded your contact information to Facebook. <a
+                    href="#">Learn more</a></p>
+            <br />
+            <br />
+            <p class="subTitle5">By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy
+                    Policy</a> and <a href="#">Cookies Policy.</a> You may receive SMS notifications from us and can opt
+                out at any time.</p>
+            <input type="submit" class="submit" value="Sign Up" onclick="register()" />
+        </form>
+    </div>
+    <!-- Facebook SignUp Form End -->
+    <script src="app.js"></script>
 </body>
-<script src="app.js"></script>
+
 </html>

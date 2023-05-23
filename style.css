@@ -1,0 +1,467 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* form sec strt */
+form {
+    width: 425 px;
+    height: 550px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 3%;
+    box-shadow: 0px 5px 8px 3px #aaa;
+    background-color: white;
+    z-index: 10;
+    position: relative;
+}
+
+/* 1st title and sub title start */
+.title1 {
+    font-size: 32px;
+    padding: 10px 10px 0px 10px;
+}
+
+#subtitle {
+    color: #606770;
+    margin-left: 10px;
+}
+
+hr {
+    margin-top: 10px;
+    opacity: 20%;
+}
+
+/* 1st title and sub title end */
+
+/* inp sec strt */
+#inp1 {
+    width: 170px;
+    border-radius: 5px;
+    background-color: #e6e6ee;
+    height: 35px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#inp2 {
+    width: 170px;
+    border-radius: 5px;
+    background-color: #e6e6ee;
+    height: 35px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#inp3 {
+    width: 370px;
+    background-color: #e6e6ee;
+    height: 35px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#inp4 {
+    width: 370px;
+    background-color: #e6e6ee;
+    height: 35px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+/* inp sec end */
+
+/* DOB sec strt */
+.subTitle2 {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+select {
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 35px;
+    font-size: 15px;
+    background: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+/* DOB sec end */
+
+/* Gender sec strt */
+.subTitle3 {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#allGender {
+    width: 115px;
+    height: 25px;
+    border: 1px solid #aaa;
+    padding: 10px 0px 0px 0px;
+    border-radius: 5px;
+}
+
+.female {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.male {
+    margin-top: -38px;
+    margin-left: 145px;
+}
+
+.other {
+    margin-left: 280px;
+    margin-top: -38px;
+}
+
+/* Gender sec end */
+
+/* last sec strt */
+.subTitle4 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #606770;
+}
+
+.subTitle4 a {
+    text-decoration: none;
+    color: blue;
+}
+
+.subTitle5 {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #606770;
+}
+
+.subTitle5 a {
+    text-decoration: none;
+    color: blue;
+}
+
+.submit {
+    width: 200px;
+    height: 40px;
+    background-color: #0ebd02;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.submit:hover {
+    opacity: 60%;
+}
+
+/* last sec end */
+/* form sec end */
+
+
+
+
+/*  LET'S MAKE IT RESPONSIVE */
+/* // X-Small devices (portrait phones, less than 576px) */
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    form {
+        width: 380px;
+        height: 560px;
+        margin-left: 0%;
+    }
+
+    #inp1 {
+        width: 163px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    #inp2 {
+        width: 163px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    #inp3 {
+        width: 350px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    #inp4 {
+        width: 350px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    select {
+        width: 110px;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 34px;
+    }
+
+    #allGender {
+        width: 105px;
+        height: 24px;
+        padding: 10px 0px 0px 5px;
+    }
+
+    .female {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .male {
+        margin-top: -36px;
+        margin-left: 135px;
+    }
+
+    .other {
+        margin-left: 260px;
+        margin-top: -36px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width:577px) and (max-width: 768px) {
+    form {
+        width: 400px;
+        height: 560px;
+        margin-left: 10%;
+    }
+
+    #inp1 {
+        width: 163px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    #inp2 {
+        width: 163px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    #inp3 {
+        width: 350px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    #inp4 {
+        width: 350px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    select {
+        width: 110px;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 34px;
+    }
+
+    #allGender {
+        width: 105px;
+        height: 24px;
+        padding: 10px 0px 0px 5px;
+    }
+
+    .female {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .male {
+        margin-top: -36px;
+        margin-left: 135px;
+    }
+
+    .other {
+        margin-left: 260px;
+        margin-top: -36px;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    form {
+        width: 400px;
+        height: 560px;
+        margin-left: 25%;
+    }
+
+    #inp1 {
+        width: 163px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    #inp2 {
+        width: 163px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    #inp3 {
+        width: 350px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    #inp4 {
+        width: 350px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    select {
+        width: 110px;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 34px;
+    }
+
+    #allGender {
+        width: 105px;
+        height: 24px;
+        padding: 10px 0px 0px 5px;
+    }
+
+    .female {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .male {
+        margin-top: -36px;
+        margin-left: 135px;
+    }
+
+    .other {
+        margin-left: 260px;
+        margin-top: -36px;
+    }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) {
+    form {
+        width: 400px;
+        height: 560px;
+        margin-left: 35%;
+    }
+
+    #inp1 {
+        width: 163px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    #inp2 {
+        width: 163px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    #inp3 {
+        width: 350px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    #inp4 {
+        width: 350px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    select {
+        width: 110px;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 34px;
+    }
+
+    #allGender {
+        width: 105px;
+        height: 24px;
+        padding: 10px 0px 0px 5px;
+    }
+
+    .female {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .male {
+        margin-top: -36px;
+        margin-left: 135px;
+    }
+
+    .other {
+        margin-left: 260px;
+        margin-top: -36px;
+    }
+
+}
